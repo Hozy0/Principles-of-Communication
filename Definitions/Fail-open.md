@@ -1,0 +1,3 @@
+In a fail-open scenario, if a network element fails or becomes unavailable, <u>the network continues to forward traffic, even though it may not follow the preferred or optimal path.</u> Fail-open behaviour prioritises network continuity and ensures that data can still be forwarded, even if it means using suboptimal paths.
+
+This approach may be suitable for networks that prioritise availability and robustness over performance optimisation.

@@ -1,0 +1,1 @@
+In the context of routing, "partitions" typically refer to a concept where the network is divided or segmented into different subsets or domains, each with its own set of routing rules and policies. These partitions help in managing and controlling traffic within the network.

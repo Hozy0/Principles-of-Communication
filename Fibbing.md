@@ -33,7 +33,8 @@ Here's an overview:
 Here's an implementation of a Fibbing controller. We propose algorithms that should run in sequence to compute augmented topologies of limited size.
 	![[Pasted image 20231012214922.png]]
 
-The controller can be changed to also listen to OSPF and 
+The controller can be changed to also listen to OSPF and augment the topology.
+	![[Pasted image 20231012220843.png]]
 ### Simple and Merger
 
 Consider the following example, with a drastic forwarding path change.
@@ -51,5 +52,37 @@ This way, Merger programs multiple next-hop changes with a single fake node. Pre
 Simple and Merger achieve different trade-offs in terms of time and optimisation efficiency. Running experiments on Rocketfuel topologies, with at least 25% of nodes changing next-hops these are the observations: 
 - Simple runs in milliseconds and Merger takes 0.1 seconds
 - Merger reduces fake nodes by up to 50% and up to 90% with cross-destination optimisation.
+
+## Fibbing experiments on real routers
+
+Experiments on real routers have allowed us to make various observations:
+- It has a very limited impact on routers
+	![[Pasted image 20231012221550.png]]
+
+- It does not impact [[IGP#^eef67d|IGP convergence]]
+	Upon link failure, we registered <u>no diffrence</u> in the (sub-second) IGP convergence with no fake nodes and with up to 100000 fake nodes and destinations
+
+- It achieves fast forwarding changes
+	![[Pasted image 20231012221826.png]]
+
+## Fibbing's robustness
+
+Fibbing improves robustness by relying on the underlying IGP.
+- No controller action is needed in some cases; IGPs re-converge quickly.
+- IGP provides fast failure detection and control-plane sync thanks to its shared topology.
+- Fibbing supports [[Definitions/Fail-open|fail-open]] and [[Fail-close|fail-close]] semantics.
+
+We ran a failure recovery case study with a distributed Fibbing controller, these are the observations:
+- Fibbing survives replica failures with no impact on forwarding
+	![[Pasted image 20231012223608.png]]
+
+- Fibbing reacts to network failures quickly re-optimising forwarding
+	![[Pasted image 20231012223636.png]]
+
+- Fibbing reacts to [[Partitions|partitions]], respecting fail-close and fail-open semantics
+	![[Pasted image 20231012223717.png]]
+
+- Fibbing recovers correctly (as soon as failures are fixed)
+	![[Pasted image 20231012223746.png]]
 
 
