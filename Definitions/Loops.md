@@ -1,0 +1,1 @@
+Loops in networking occur when data packets follow a cyclic path, continuously circulating within the network without reaching their intended destinations. Loops can lead to excessive bandwidth consumption, packet delays, and network instability.

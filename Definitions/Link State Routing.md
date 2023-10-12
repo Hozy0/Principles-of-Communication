@@ -1,0 +1,5 @@
+- Link state routing is based on gathering detailed information about each link (connection) in the network.
+- Routers or nodes exchange information about the state and cost of each link with other routers in the network.
+- Using this detailed per-link information, each router constructs a complete map of the network, known as the "link state database."
+- With this map, routers can calculate the shortest path to reach any destination, often using algorithms like Dijkstra's algorithm.
+- OSPF (Open Shortest Path First) is a common example of a link state routing protocol.

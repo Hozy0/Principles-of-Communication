@@ -1,0 +1,4 @@
+- An **Internal Gateway Protocol** (IGP) is used ***within*** an [[AS|AS]].
+- IGP protocols are designed to facilitate routing and exchange routing information between routers within the same AS.
+- Common examples of IGPs include Routing Information Protocol (RIP), Open Shortest Path First (OSPF), and Intermediate System to Intermediate System (IS-IS).
+- IGPs are used to make routing decisions within the boundaries of an autonomous system, helping routers direct traffic within the organisation's network.

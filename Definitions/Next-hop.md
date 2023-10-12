@@ -1,0 +1,5 @@
+In routing, "next-hop" refers to the <u>next router or network device that a data packet should be forwarded to on its journey from the source to its destination</u>. It is a critical concept in routing tables and the decision-making process that routers use to determine how to transmit data to its intended endpoint.
+
+When a router receives a data packet, it looks at the packet's destination address and checks its routing table to determine the appropriate next-hop. The next-hop is typically an IP address or an interface on the router to which the packet should be sent next. The router will then forward the packet to the next-hop, which will continue the process until the packet reaches its final destination.
+
+The next-hop information is essential for routers to make informed routing decisions, as it indicates the specific path the data packet should take to reach its destination efficiently.

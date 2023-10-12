@@ -1,0 +1,1 @@
+A routing table is a data structure that contains information about the available network paths, including details about destination addresses, next-hop routers, and metrics (such as cost or distance) associated with those paths.

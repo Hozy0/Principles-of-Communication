@@ -1,0 +1,3 @@
+- In source-based routing, the source (originating node) of data or a packet is responsible for knowing the entire network topology or map.
+- The source has a complete view of the network and determines the best path for data to reach its destination.
+- This method is typically used in scenarios where the source has comprehensive information about the network, making routing decisions at the source itself.

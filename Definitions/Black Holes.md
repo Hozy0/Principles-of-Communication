@@ -1,0 +1,1 @@
+A "black hole" in networking occurs when a data packet is routed into a part of the network where it disappears or is not delivered to its intended destination. This can happen due to misconfigurations, failures, or incorrect routing decisions.

@@ -1,0 +1,1 @@
+The global topology information is typically stored in the Routing Information Base (RIB). Unlike the [[FIB]], the RIB contains slower-changing information about the network's configuration and topology.

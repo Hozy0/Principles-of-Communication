@@ -1,0 +1,2 @@
+A routing protocol is a set of rules and procedures used in computer networks to determine how data packets should be forwarded from their source to their destination. Routing protocols help routers and switches make decisions about the best path for data to travel through the network.
+Routing protocols are responsible for configuring and populating [[Routing Table|routing tables]].
