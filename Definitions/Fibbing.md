@@ -27,3 +27,29 @@ Here's an overview:
 	![[Pasted image 20231012205200.png]]
 - To control [[IGP]] output, the Fibbing controllers invert the shortest-path function
 	![[Pasted image 20231012205321.png]]
+
+## Implementing a Fibbing controller
+
+Here's an implementation of a Fibbing controller. We propose algorithms that should run in sequence to compute augmented topologies of limited size.
+	![[Pasted image 20231012214922.png]]
+
+The controller can be changed to also listen to OSPF and 
+### Simple and Merger
+
+Consider the following example, with a drastic forwarding path change.
+	![[Pasted image 20231012215600.png]]
+
+Simple adds one fake node for every router that has to change [[Next-hop|next-hop]].
+	![[Pasted image 20231012215704.png]]
+
+Merger iteratively merges fake nodes (Starting from Simple's output).
+	![[Pasted image 20231012215905.png]]
+
+This way, Merger programs multiple next-hop changes with a single fake node. Previous SDN solutions <u>CANNOT</u> do the same.
+	![[Pasted image 20231012215954.png]]
+
+Simple and Merger achieve different trade-offs in terms of time and optimisation efficiency. Running experiments on Rocketfuel topologies, with at least 25% of nodes changing next-hops these are the observations: 
+- Simple runs in milliseconds and Merger takes 0.1 seconds
+- Merger reduces fake nodes by up to 50% and up to 90% with cross-destination optimisation.
+
+

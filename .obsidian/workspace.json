@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4f47781f6e862e31",
+        "id": "edefe0e0abedadad",
         "type": "tabs",
         "children": [
           {
-            "id": "dc3e62241f7591df",
+            "id": "599baa7fedeb4d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Fibbing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38a02480edf160de",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Central Routing.md",
+                "file": "Definitions/Fibbing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Central Routing.md",
+                "file": "Definitions/Fibbing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Central Routing.md"
+                "file": "Definitions/Fibbing.md"
               }
             }
           },
@@ -154,28 +166,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc3e62241f7591df",
+  "active": "599baa7fedeb4d21",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231012215954.png",
+    "Attachments/Pasted image 20231012215905.png",
+    "Attachments/Pasted image 20231012215704.png",
+    "Attachments/Pasted image 20231012215600.png",
+    "Central Routing.md",
+    "Definitions/Fibbing.md",
+    "Definitions/Next-hop.md",
+    "Attachments/Pasted image 20231012214922.png",
+    "Routing.md",
+    "Definitions/Backup Paths Provisioning.md",
+    "Definitions/Fine-Grained Traffic Steering.md",
+    "Definitions/Per-Destination Load Balancing.md",
+    "**Backup Paths Provisioning.md",
     "Attachments/Pasted image 20231012212908.png",
     "Attachments/Pasted image 20231012212727.png",
     "Attachments/Pasted image 20231012212512.png",
-    "Routing.md",
-    "Definitions/Fibbing.md",
-    "Central Routing.md",
     "Attachments/Pasted image 20231012212047.png",
     "Attachments/Pasted image 20231012211747.png",
     "Attachments/Pasted image 20231012205321.png",
-    "Attachments/Pasted image 20231012205200.png",
     "Definitions/AS.md",
-    "Attachments/Pasted image 20231012204507.png",
-    "Attachments/Pasted image 20231012185905.png",
-    "Attachments/Pasted image 20231012195151.png",
-    "Attachments/Pasted image 20231012195056.png",
     "Definitions/IGP.md",
     "Centralisation.md",
     "Definitions/FIB.md",
     "Definitions/SDN.md",
-    "Definitions/Next-hop.md",
     "Definitions/Source-Based Routing.md",
     "Definitions/EGP.md",
     "Definitions/BGP.md",

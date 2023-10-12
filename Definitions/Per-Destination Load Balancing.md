@@ -1,0 +1,1 @@
+Per-destination load balancing aims to distribute network traffic evenly across multiple paths to optimise performance and prevent congestion.

@@ -1,0 +1,1 @@
+Fine-grained traffic steering, often referred to as "middleboxing," involves directing specific types of traffic or traffic from particular sources to intermediate services (middleboxes) for tasks like deep packet inspection, security filtering, or traffic optimisation.
