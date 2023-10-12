@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Central Routing.md",
+                "file": "Fibbing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Central Routing.md",
+                "file": "Fibbing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Central Routing.md",
+                "file": "Fibbing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Central Routing.md"
+                "file": "Fibbing.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,14 +156,20 @@
   },
   "active": "38a02480edf160de",
   "lastOpenFiles": [
+    "Definitions/FIB.md",
     "Fibbing.md",
+    "Central Routing.md",
+    "Routing.md",
+    "Definitions/Routing Convergence.md",
+    "Definitions/AS.md",
+    "Definitions/Black Holes.md",
+    "Definitions/Routing Protocol.md",
+    "Definitions/Backup Paths Provisioning.md",
+    "Definitions/SDN.md",
     "Attachments/Pasted image 20231012223746.png",
     "Attachments/Pasted image 20231012223717.png",
     "Attachments/Pasted image 20231012223636.png",
     "Attachments/Pasted image 20231012223608.png",
-    "Central Routing.md",
-    "Definitions/AS.md",
-    "Routing.md",
     "Definitions/Partitions.md",
     "Definitions/Fail-close.md",
     "Definitions/Fail-open.md",
@@ -176,13 +182,10 @@
     "Attachments/Pasted image 20231012215905.png",
     "Attachments/Pasted image 20231012215704.png",
     "Definitions/Next-hop.md",
-    "Definitions/Backup Paths Provisioning.md",
     "Definitions/Fine-Grained Traffic Steering.md",
     "Definitions/Per-Destination Load Balancing.md",
     "**Backup Paths Provisioning.md",
     "Centralisation.md",
-    "Definitions/FIB.md",
-    "Definitions/SDN.md",
     "Definitions/Source-Based Routing.md",
     "Definitions/EGP.md",
     "Definitions/BGP.md",
@@ -192,8 +195,6 @@
     "Attachments",
     "Definition",
     "Definitions/Routing Table.md",
-    "Definitions/Routing Protocol.md",
-    "Definitions/Loops.md",
     "Definitions"
   ]
 }

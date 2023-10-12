@@ -35,3 +35,10 @@ Here's how Fibbing's flexibility and ability to enforce various forwarding DAGs 
 
 - **[[Backup Paths Provisioning]] (Failure Recovery)**
    - Fibbing's flexibility enables administrators to configure forwarding DAGs that include backup paths. Fibbing can quickly reroute traffic along these pre-established backup paths when network issues occur, ensuring reliable failure recovery and network resilience.
+
+### Benefits of central control over distributed protocols
+
+Fibbing shows the benefits of central control over distributed protocols:
+- Successfully implements SDN management model that enables automated control and management of the entire network.
+- Simplify controllers and improves robustness, the heavy work is still done by routers
+- Works today on existing networks and avoids SDN deployment hurdles
