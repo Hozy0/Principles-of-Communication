@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,9 +156,14 @@
   },
   "active": "dc3e62241f7591df",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231012212908.png",
+    "Attachments/Pasted image 20231012212727.png",
+    "Attachments/Pasted image 20231012212512.png",
     "Routing.md",
-    "Central Routing.md",
     "Definitions/Fibbing.md",
+    "Central Routing.md",
+    "Attachments/Pasted image 20231012212047.png",
+    "Attachments/Pasted image 20231012211747.png",
     "Attachments/Pasted image 20231012205321.png",
     "Attachments/Pasted image 20231012205200.png",
     "Definitions/AS.md",
@@ -167,9 +172,6 @@
     "Attachments/Pasted image 20231012195151.png",
     "Attachments/Pasted image 20231012195056.png",
     "Definitions/IGP.md",
-    "Attachments/Pasted image 20231012193309.png",
-    "Attachments/Pasted image 20231012192455.png",
-    "Attachments/Pasted image 20231012192413.png",
     "Centralisation.md",
     "Definitions/FIB.md",
     "Definitions/SDN.md",
@@ -180,7 +182,6 @@
     "Definitions/Oscillations.md",
     "Definitions/Link State Routing.md",
     "Definitions/Distance Vector Routing.md",
-    "Attachments/Pasted image 20231012144631.png",
     "Attachments",
     "Definition",
     "Definitions/Routing Table.md",
