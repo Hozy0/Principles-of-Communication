@@ -1,0 +1,1 @@
+A **shim layer** refers to an intermediate software or programming layer that is inserted between two other software components or layers to facilitate communication or compatibility between them. The term "shim" is derived from the idea of a thin piece of material used to fill a gap or make two components fit together, and in software, it serves a similar purpose.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions/Forwarding vs Routing.md",
+                "file": "MPLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/Forwarding vs Routing.md",
-                "collapseAll": false,
+                "file": "MPLS.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/Forwarding vs Routing.md",
+                "file": "MPLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/Forwarding vs Routing.md"
+                "file": "MPLS.md"
               }
             }
           },
@@ -137,11 +137,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,16 +156,20 @@
   },
   "active": "38a02480edf160de",
   "lastOpenFiles": [
-    "Definitions/FIB.md",
-    "Definitions/Forwarding vs Routing.md",
-    "Definitions/RIB.md",
+    "Attachments/Pasted image 20231013014745.png",
+    "Definitions/Shim Layer.md",
+    "MPLS.md",
+    "Central Routing.md",
+    "Fibbing.md",
     "Routing.md",
+    "Definitions/Forwarding vs Routing.md",
+    "2023-10-13.md",
+    "Definitions/FIB.md",
+    "Definitions/RIB.md",
     "Untitled.md",
     "Definitions/Next-hop.md",
     "Definitions/AS.md",
     "Definitions/Oscillations.md",
-    "Central Routing.md",
-    "Fibbing.md",
     "Definitions/Routing Convergence.md",
     "Definitions/Black Holes.md",
     "Definitions/Routing Protocol.md",
@@ -188,10 +193,6 @@
     "Definitions/Fine-Grained Traffic Steering.md",
     "Definitions/Per-Destination Load Balancing.md",
     "**Backup Paths Provisioning.md",
-    "Centralisation.md",
-    "Definitions/Source-Based Routing.md",
-    "Definitions/EGP.md",
-    "Definitions/BGP.md",
     "Attachments",
     "Definition",
     "Definitions"
