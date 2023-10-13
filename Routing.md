@@ -36,7 +36,7 @@ A suitable routing protocol must meet these requirements:
 - The Internet is organised as "[[AS|AS]]"
 	- AS are internally connected
 - Features
-	- [[Routing#|Dynamic routing]]: Dynamic routing in the internet routing model refers to the use of routing protocols to automatically and adaptively determine the best paths for data to travel between AS based on real-time network conditions and policies. It enables efficient and flexible data routing across the global internet.
+	- Dynamic routing: Dynamic routing in the internet routing model refers to the use of routing protocols to automatically and adaptively determine the best paths for data to travel between AS based on real-time network conditions and policies. It enables efficient and flexible data routing across the global internet.
 	- [[AS#Routing Policies|Intra- and Inter-AS routing]]: AS can route traffic within themselves and can be exchanged with other AS
 	- AS = [[AS#Locus of admin control|locus of admin control]]: this concept emphasises that each autonomous system on the internet has its own independent control over its routing policies and network management. This autonomy allows organisations to make decisions that best suit their network's needs while participating in the global internet routing system.
 

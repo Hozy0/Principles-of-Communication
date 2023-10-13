@@ -39,8 +39,30 @@ Here’s an overview of how MPLS operates:
 
 ![[Pasted image 20231013022327.png]]
 
-N.B. The LSP is unidirectional
-## Label Switching Path
+## Label distribution
 
-We need to distribute a label mapping of the network.
-For each FEC, a specific path called Label Switching Path (LSP) is assigned
+For each FEC, a specific path called[[LSP| Label Switching Path]] (LSP) is assigned and we need a label distribution protocol so that an LSR can inform others of the label/FEC binding it has made.
+
+A forwarding table is constructed as the result of label distribution
+![[Pasted image 20231013023601.png]]
+
+## LSP route selection
+
+- **Hop-by-hop routing**: 
+	Use the route determined by the dynamic routing protocol
+- **Explicit routing (ER)**: 
+	The sender LSR can specify an <u>explicit route</u> (that can be selected ahead of time or dynamically) for the LSP
+
+### Explicitly routed LSP
+
+The advantages of ER are that we can establish LSP based on policy, QoS, etc and that we can have pre-established LSP in case of failures.
+
+These mappings are established by signalling protocols such as **CR-LDP** and **RSVP-TE**.
+
+## Diffserv-Aware MPLS
+
+MPLS can be used together with [[DiffServ|Differentiated Services ]]to provide [[QoS]] (*More when discussing traffic management*).
+
+Here LSP are configured between each ingress-egress pair, and there are 2 approaches:
+- For each ingress-egress pair, a separate LSP can be created for each traffic class
+- For each ingress-egress pair, c

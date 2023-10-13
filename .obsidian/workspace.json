@@ -104,7 +104,7 @@
               "state": {
                 "file": "MPLS.md",
                 "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,11 +156,15 @@
   },
   "active": "38a02480edf160de",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20231013022327.png",
     "Routing.md",
-    "Fibbing.md",
+    "DiffServ.md",
     "MPLS.md",
+    "Definitions/QoS.md",
+    "Attachments/Pasted image 20231013023601.png",
+    "Definitions/LSP.md",
     "Definitions/LSR.md",
+    "Attachments/Pasted image 20231013022327.png",
+    "Fibbing.md",
     "Definitions/Forwarding Table.md",
     "Definitions/Routing Table.md",
     "Central Routing.md",
@@ -184,14 +189,10 @@
     "Attachments/Pasted image 20231012223636.png",
     "Attachments/Pasted image 20231012223608.png",
     "Definitions/Partitions.md",
-    "Definitions/Fail-close.md",
-    "Definitions/Fail-open.md",
     "Defintions",
     "Attachments/Pasted image 20231012221826.png",
     "Attachments/Pasted image 20231012221550.png",
     "Attachments/Pasted image 20231012220843.png",
-    "Attachments/Pasted image 20231012215954.png",
-    "Attachments/Pasted image 20231012215905.png",
     "Attachments",
     "Definition",
     "Definitions"
