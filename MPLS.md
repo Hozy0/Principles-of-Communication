@@ -61,8 +61,24 @@ These mappings are established by signalling protocols such as **CR-LDP** and **
 
 ## Diffserv-Aware MPLS
 
-MPLS can be used together with [[DiffServ|Differentiated Services ]]to provide [[QoS]] (*More when discussing traffic management*).
+MPLS can be used with [[DiffServ|Differentiated Services ]]to provide [[QoS]] (*More when discussing traffic management*).
 
-Here LSP are configured between each ingress-egress pair, and there are 2 approaches:
-- For each ingress-egress pair, a separate LSP can be created for each traffic class
-- For each ingress-egress pair, c
+Here, LSP are configured between each ingress-egress pair, and there are two approaches:
+- For each ingress-egress pair, a separate LSP can be created for each traffic class.
+- For each ingress-egress pair, create a single LSP and use the Exp bits to differentiate packet classes.
+
+In an MPLS-based network, the system can<u> efficiently handle a growing number of data flows or communications without a proportional increase in the number of LSP
+</u> 
+
+In an ISP network, the ingress router not only enforces traffic policing but also adds an MPLS header to the packet. The core routers then use the label and Exp fields to process the packet efficiently. Finally, at the egress router, the MPLS header is removed.
+
+It is transparent to other ISPs whether an ISP's architecture is DS field-based or MPLS-based, allowing for easy interoperability between the two.
+
+A customer domain still needs a [[Bandwidth Broker ]](BB) to allocate services and request resources on behalf of the customer domain when the [[SLA]] is dynamic.
+BBs may not be necessary for MPLS-based ISP networks since the ingress router can make the admission control decision. If the requested resource is granted, the ingress router sends a PATH message to the egress router through an LSP.
+
+## Why MPLS Protection?
+
+IP restoration processes can be slow. When a failure occurs, OSPF, RIP, and similar protocols require updated link status information to be redistributed, resulting in [[Routing Convergence|routing table convergence]] times on the order of seconds. During convergence, looping and packet loss may occur.
+
+MPLS enables fast failure restoration.

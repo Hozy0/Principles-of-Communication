@@ -1,0 +1,2 @@
+The Bandwidth Broker (BB) is an agent responsible for allocating preferred service to users as
+requested, and for configuring the network routers with the correct forwarding behaviour for the defined service. A BB is associated with a particular trust region, one per domain. A BB has a policy database that keeps the information on who can do what, when and a method of using that database to authenticate requesters. Only a BB can configure the leaf routers to deliver a particular service to flows, crucial for deploying a secure system.
