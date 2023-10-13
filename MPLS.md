@@ -82,3 +82,27 @@ BBs may not be necessary for MPLS-based ISP networks since the ingress router ca
 IP restoration processes can be slow. When a failure occurs, OSPF, RIP, and similar protocols require updated link status information to be redistributed, resulting in [[Routing Convergence|routing table convergence]] times on the order of seconds. During convergence, looping and packet loss may occur.
 
 MPLS enables fast failure restoration.
+
+### MPLS protection approaches
+
+- **End-to-End protection**
+	To ensure uninterrupted data transmission between the source and destination LSRs, a backup LSP is established beforehand. The backup LSP is designed to use different links and nodes than the primary LSP, ensuring that it remains unaffected in case of a failure. However, resources must be reserved for the backup LSP to function smoothly.
+	In case of a failure, it is the responsibility of the source LSR to restore the connection. Additionally, the sender must be notified of the failure so that necessary actions can be taken.
+- **Local protection**
+	When setting up a primary LSP, a backup LSP is also established for each potential link or node failure. Resources are allocated for each backup LSP. In case of a failure, the LSR responsible for detecting the problem switches the traffic to the backup LSP. This method of protection results in faster restoration than end-to-end protection.
+
+## Label sticking
+
+When using local protection, a separate set of backup LSPs must be created for every primary LSP. However, a single LSP can backup a set of primary LSPs if MPLS label stacking is used.
+
+Each packet in a network may have multiple labels and they are arranged in a LIFO ) stack. Labels can be added to or removed from the stack at any LSR. The processing is always performed on the top of the stack.
+
+When multiple LSPs need to follow the same path, they can be combined into a single LSP which creates a tunnel. At the beginning of the tunnel, the LSR assigns the same label to packets from different LSPs by pushing the label onto each packet's stack. At the end of the tunnel, the LSR removes the top label from the stack. This process ensures that packets from different LSPs reach their destination on the same path, without being mixed up.
+
+### Local protection using label stacking
+
+A bypass tunnel is an LSP used to protect a set of other LSPs that pass through a common facility. Label stacking enables multiple LSPs to use the same bypass tunnel to protect against failures.
+
+In case of a failure, the LSR situated at the beginning of the tunnel will switch the packets received on the protected LSP x to the bypass tunnel. It will replace the old label with a new label that will be easily understood by the last node in the bypass tunnel to indicate LSP x. Additionally, it will push the bypass tunnel's label onto the label stack of the redirected packets.
+
+On the other hand, the LSR located at the end of the tunnel will pop the bypass tunnel's label and examine the top label to determine the protected LSP that the packet is supposed to follow.
