@@ -1,0 +1,1 @@
+A forwarding table is a data structure in networking that maps destination addresses to the corresponding outgoing network interfaces or next-hop routers. It is used by network devices, such as routers and switches, to determine how to forward data packets to their intended destinations within a network.

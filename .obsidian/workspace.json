@@ -92,7 +92,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -103,8 +103,8 @@
               "type": "outgoing-link",
               "state": {
                 "file": "MPLS.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -137,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,12 +155,17 @@
   },
   "active": "38a02480edf160de",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20231013022327.png",
+    "Routing.md",
+    "Fibbing.md",
+    "MPLS.md",
+    "Definitions/LSR.md",
+    "Definitions/Forwarding Table.md",
+    "Definitions/Routing Table.md",
+    "Central Routing.md",
+    "Definitions/PHB.md",
     "Attachments/Pasted image 20231013014745.png",
     "Definitions/Shim Layer.md",
-    "MPLS.md",
-    "Central Routing.md",
-    "Fibbing.md",
-    "Routing.md",
     "Definitions/Forwarding vs Routing.md",
     "2023-10-13.md",
     "Definitions/FIB.md",
@@ -185,14 +189,9 @@
     "Defintions",
     "Attachments/Pasted image 20231012221826.png",
     "Attachments/Pasted image 20231012221550.png",
-    "Definitions/IGP.md",
     "Attachments/Pasted image 20231012220843.png",
     "Attachments/Pasted image 20231012215954.png",
     "Attachments/Pasted image 20231012215905.png",
-    "Attachments/Pasted image 20231012215704.png",
-    "Definitions/Fine-Grained Traffic Steering.md",
-    "Definitions/Per-Destination Load Balancing.md",
-    "**Backup Paths Provisioning.md",
     "Attachments",
     "Definition",
     "Definitions"

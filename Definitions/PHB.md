@@ -1,0 +1,1 @@
+PHB stands for **Per-Hop Behaviour**, and it defines how packets are treated or handled by network routers at each hop as they traverse the network. 

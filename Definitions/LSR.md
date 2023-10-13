@@ -1,0 +1,2 @@
+An MPLS capable router is called a **Label Switching Router** (LSR)
+Instead of using traditional IP routing to make forwarding decisions based on destination IP addresses, LSRs make decisions based on labels attached to packets.
