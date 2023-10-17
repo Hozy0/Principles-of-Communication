@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPLS.md",
+                "file": "Definitions/BGP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPLS.md",
+                "file": "Definitions/BGP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MPLS.md",
+                "file": "Definitions/BGP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MPLS.md"
+                "file": "Definitions/BGP.md"
               }
             }
           },
@@ -156,24 +156,26 @@
   },
   "active": "38a02480edf160de",
   "lastOpenFiles": [
-    "Definitions/LSP.md",
     "MPLS.md",
-    "Definitions/Routing Convergence.md",
     "Definitions/SLA.md",
     "Definitions/Bandwidth Broker.md",
-    "Central Routing.md",
+    "Definitions/Shim Layer.md",
+    "Fibbing.md",
     "DiffServ.md",
+    "Central Routing.md",
+    "Definitions/IGP.md",
     "Routing.md",
+    "Definitions/Oscillations.md",
+    "Definitions/Routing Convergence.md",
+    "Definitions/LSP.md",
     "Definitions/QoS.md",
     "Attachments/Pasted image 20231013023601.png",
     "Definitions/LSR.md",
     "Attachments/Pasted image 20231013022327.png",
-    "Fibbing.md",
     "Definitions/Forwarding Table.md",
     "Definitions/Routing Table.md",
     "Definitions/PHB.md",
     "Attachments/Pasted image 20231013014745.png",
-    "Definitions/Shim Layer.md",
     "Definitions/Forwarding vs Routing.md",
     "2023-10-13.md",
     "Definitions/FIB.md",
@@ -181,10 +183,8 @@
     "Untitled.md",
     "Definitions/Next-hop.md",
     "Definitions/AS.md",
-    "Definitions/Oscillations.md",
     "Definitions/Black Holes.md",
     "Definitions/Routing Protocol.md",
-    "Definitions/Backup Paths Provisioning.md",
     "Attachments/Pasted image 20231012223746.png",
     "Attachments/Pasted image 20231012223717.png",
     "Attachments/Pasted image 20231012223636.png",
