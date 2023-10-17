@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions/BGP.md",
+                "file": "BGP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/BGP.md",
+                "file": "BGP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/BGP.md",
+                "file": "BGP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/BGP.md"
+                "file": "BGP.md"
               }
             }
           },
@@ -154,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38a02480edf160de",
+  "active": "553e832bc949ac54",
   "lastOpenFiles": [
     "MPLS.md",
     "Definitions/SLA.md",
