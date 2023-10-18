@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "source routing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,12 +157,15 @@
   },
   "active": "e2d751ce23d4fa02",
   "lastOpenFiles": [
-    "Central Routing.md",
     "SR.md",
     "Routing.md",
+    "Attachments/Pasted image 20231018171239.png",
+    "Attachments/Pasted image 20231018171212.png",
+    "Attachments/Pasted image 20231018171030.png",
+    "MPLS.md",
+    "Central Routing.md",
     "Definitions/Black Holes.md",
     "BGP.md",
-    "MPLS.md",
     "Definitions/SLA.md",
     "Definitions/Bandwidth Broker.md",
     "Definitions/Shim Layer.md",
@@ -184,15 +188,11 @@
     "Definitions/FIB.md",
     "Definitions/RIB.md",
     "Untitled.md",
-    "Definitions/Next-hop.md",
     "Attachments/Pasted image 20231012223746.png",
     "Attachments/Pasted image 20231012223717.png",
     "Attachments/Pasted image 20231012223636.png",
     "Attachments/Pasted image 20231012223608.png",
     "Defintions",
-    "Attachments/Pasted image 20231012221826.png",
-    "Attachments/Pasted image 20231012221550.png",
-    "Attachments/Pasted image 20231012220843.png",
     "Attachments",
     "Definition",
     "Definitions"

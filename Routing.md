@@ -93,7 +93,7 @@ A suitable routing protocol must meet these requirements:
 	- *Distributed Routing*: Distributed routing spreads<u> routing decision-making across multiple routers or nodes in the network</u>. It can handle failures and congestion more effectively but may be more complex to configure and maintain.
 
 - **Source-Based vs. Hop-by-Hop Routing**:
-	- *Source-Based Routing*: In source-based routing, <u>the source node determines the complete path or route to the destination</u> and includes this information in the packet header. Intermediate routers follow the specified route.
+	- *Source-Based Routing*: In source-based routing, <u>the source node determines the complete path or route to the destination</u> and includes this information in the packet header. Intermediate routers follow the specified route. ^1f8797
 	- *Hop-by-Hop Routing*: In hop-by-hop routing, <u>each router along the path makes its own independent routing decision</u> based on its local routing table. The packet header typically contains only the destination address, and routers determine the next hop based on this address.
 
 - **Stochastic vs. Deterministic Routing**:
@@ -102,7 +102,7 @@ A suitable routing protocol must meet these requirements:
 
 - **Single vs. Multiple Path Routing**:
 	- *Single Path Routing*: Single path routing selects <u>one primary path</u> for data transmission. If that path fails, the network must recompute a new path, potentially causing delays.
-	- *Multiple Path Routing*: Multiple path routing involves the use of <u>both primary and alternative paths</u>. If the primary path experiences issues, data can be rerouted via alternative paths, improving network fault tolerance.
+	- *Multiple Path Routing*: Multiple path routing involves the use of <u>both primary and alternative paths</u>. If the primary path experiences issues, data can be rerouted via alternative paths, improving network fault tolerance. ^2183d8
 
 - **State-Dependent vs. State-Independent Routing**:
 	- *State-Dependent Routing*: State-dependent routing decisions are<u> influenced by the current network conditions</u>, such as delay or traffic load. Routes may change dynamically based on the real-time state of the network.
