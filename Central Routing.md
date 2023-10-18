@@ -1,6 +1,6 @@
 Having touched on traffic engineering in the context of Inter-domain routing, let's look at
 three more approaches to helping engineer paths traffic follows within a single routing
-domain, namely [[Routing#^e57da0|centralised routing]] using [[SDN]] controls, [[MPLS|multi-protocol label switching]], and segment routing.
+domain, namely [[Routing#^e57da0|centralised routing]] using [[SDN]] controls, [[MPLS|multi-protocol label switching]], and [[SR|segment routing]].
 
 ## Central control over distributed routing
 

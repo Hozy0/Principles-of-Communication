@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "edefe0e0abedadad",
+        "id": "154e674ac2ceeeec",
         "type": "tabs",
         "children": [
           {
-            "id": "38a02480edf160de",
+            "id": "e2d751ce23d4fa02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BGP.md",
+                "file": "SR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BGP.md",
+                "file": "SR.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BGP.md",
+                "file": "SR.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BGP.md"
+                "file": "SR.md"
               }
             }
           },
@@ -154,17 +154,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "553e832bc949ac54",
+  "active": "e2d751ce23d4fa02",
   "lastOpenFiles": [
+    "Central Routing.md",
+    "SR.md",
+    "Routing.md",
+    "Definitions/Black Holes.md",
+    "BGP.md",
     "MPLS.md",
     "Definitions/SLA.md",
     "Definitions/Bandwidth Broker.md",
     "Definitions/Shim Layer.md",
     "Fibbing.md",
     "DiffServ.md",
-    "Central Routing.md",
     "Definitions/IGP.md",
-    "Routing.md",
     "Definitions/Oscillations.md",
     "Definitions/Routing Convergence.md",
     "Definitions/LSP.md",
@@ -182,9 +185,6 @@
     "Definitions/RIB.md",
     "Untitled.md",
     "Definitions/Next-hop.md",
-    "Definitions/AS.md",
-    "Definitions/Black Holes.md",
-    "Definitions/Routing Protocol.md",
     "Attachments/Pasted image 20231012223746.png",
     "Attachments/Pasted image 20231012223717.png",
     "Attachments/Pasted image 20231012223636.png",
