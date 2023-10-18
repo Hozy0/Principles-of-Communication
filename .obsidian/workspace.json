@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SR.md",
+                "file": "Inter-domain Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "source routing",
+                "query": "link state",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SR.md",
+                "file": "Inter-domain Routing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SR.md",
+                "file": "Inter-domain Routing.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SR.md"
+                "file": "Inter-domain Routing.md"
               }
             }
           },
@@ -157,13 +156,17 @@
   },
   "active": "e2d751ce23d4fa02",
   "lastOpenFiles": [
-    "SR.md",
     "Routing.md",
+    "Inter-domain Routing.md",
+    "SR.md",
+    "Central Routing.md",
+    "Definitions/Link State Routing.md",
+    "Definitions/LSR.md",
+    "Definitions/NFV.md",
     "Attachments/Pasted image 20231018171239.png",
     "Attachments/Pasted image 20231018171212.png",
     "Attachments/Pasted image 20231018171030.png",
     "MPLS.md",
-    "Central Routing.md",
     "Definitions/Black Holes.md",
     "BGP.md",
     "Definitions/SLA.md",
@@ -177,7 +180,6 @@
     "Definitions/LSP.md",
     "Definitions/QoS.md",
     "Attachments/Pasted image 20231013023601.png",
-    "Definitions/LSR.md",
     "Attachments/Pasted image 20231013022327.png",
     "Definitions/Forwarding Table.md",
     "Definitions/Routing Table.md",
@@ -186,8 +188,6 @@
     "Definitions/Forwarding vs Routing.md",
     "2023-10-13.md",
     "Definitions/FIB.md",
-    "Definitions/RIB.md",
-    "Untitled.md",
     "Attachments/Pasted image 20231012223746.png",
     "Attachments/Pasted image 20231012223717.png",
     "Attachments/Pasted image 20231012223636.png",

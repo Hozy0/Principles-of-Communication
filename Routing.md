@@ -1,5 +1,6 @@
 ## Links to subsections
 - [[Central Routing]]
+- [[Inter-domain Routing]]
 - Multicast Routing
 - Routing in telephone networks
 - Routing for mobile hosts
