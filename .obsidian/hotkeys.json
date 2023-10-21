@@ -1,6 +1,4 @@
 {
-  "obsidian-underline:toggle-link-heading": [],
-  "obsidian-underline:toggle-link-block": [],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -8,6 +6,25 @@
         "Shift"
       ],
       "key": "B"
+    }
+  ],
+  "obsidian-underline:toggle-link-heading": [],
+  "obsidian-underline:toggle-link-block": [],
+  "editor:toggle-inline-math": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ]
 }

@@ -1,5 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "translucency": true
+  "translucency": true,
+  "enabledCssSnippets": [
+    "obsidian-default-theme"
+  ],
+  "cssTheme": "Minimal",
+  "theme": "obsidian"
 }
