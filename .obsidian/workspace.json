@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MPLS.md",
+                "file": "Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MPLS.md",
+                "file": "Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MPLS.md",
+                "file": "Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MPLS.md"
+                "file": "Routing.md"
               }
             }
           }
@@ -148,14 +148,14 @@
   },
   "active": "f40755795c779d5b",
   "lastOpenFiles": [
-    "BGP.md",
+    "Inter-domain Routing.md",
+    "Routing.md",
     "Central Routing.md",
+    "MPLS.md",
+    "BGP.md",
     "DiffServ.md",
     "Fibbing.md",
-    "Inter-domain Routing.md",
     "SR.md",
-    "MPLS.md",
-    "Routing.md",
     "Definitions/Routing Convergence.md",
     "Definitions/PHB.md",
     "Definitions/Shim Layer.md",
@@ -170,4 +170,8 @@
     "Attachments",
     "Attachments/3A8686DD-B36B-4AFD-9470-3E6224659550.jpeg",
     "Implementations/Smith-Waterman Implementation.md",
-    "Implementations/Needleman-Wunsch Implementation
+    "Implementations/Needleman-Wunsch Implementation.md",
+    "Implementations/alignment.py",
+    "Implementations"
+  ]
+}
