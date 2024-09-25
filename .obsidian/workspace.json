@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f89cb4d64a27183e",
+        "id": "20ad3df1c60720d6",
         "type": "tabs",
         "children": [
           {
-            "id": "f40755795c779d5b",
+            "id": "166eba5d2c6df80b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing.md",
+                "file": "SR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Routing.md",
+                "file": "SR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Routing.md",
+                "file": "SR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Routing.md"
+                "file": "SR.md"
               }
             }
           }
@@ -146,15 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f40755795c779d5b",
+  "active": "166eba5d2c6df80b",
   "lastOpenFiles": [
-    "Inter-domain Routing.md",
     "Routing.md",
-    "Central Routing.md",
     "MPLS.md",
-    "BGP.md",
-    "DiffServ.md",
+    "Inter-domain Routing.md",
     "Fibbing.md",
+    "DiffServ.md",
+    "Central Routing.md",
+    "BGP.md",
+    "Definitions/Fine-Grained Traffic Steering.md",
+    "Definitions/Forwarding Table.md",
+    "Definitions/Link State Routing.md",
+    "Definitions/LSR.md",
+    "Definitions/Per-Destination Load Balancing.md",
     "SR.md",
     "Definitions/Routing Convergence.md",
     "Definitions/PHB.md",
